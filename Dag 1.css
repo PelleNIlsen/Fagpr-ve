@@ -1,0 +1,45 @@
+/* Bruker !important for å overskrive den standard WordPress stylingen */
+/* CSS for alle ikon-boksene */
+.fw-ikoner-forside .icon-box-left {
+    padding: 20px !important;
+    border: 1px solid #e7e7e7 !important;
+    height: 100% !important;
+    align-items: center !important;
+    border-radius: 15px !important;
+}
+.fw-ikoner-forside .icon-box-left h5 {
+    text-transform: none !important;
+    line-height: 1.1 !important;
+    letter-spacing: 0 !important;
+    font-weight: 700 !important;
+}
+.fw-ikoner-forside a:hover .icon-box-left {
+    border: 1px solid #aaa !important;
+}
+.info-box-img img {
+    border-radius: 15px !important;
+}
+.fw-kontakt-ikoner .icon-box-img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Legge til border-radius på banner-elementene til tjeneste-seksjonen */
+.fw-tjenester img,
+.fw-tjenester .banner-link,
+.fw-tjenester .banner-layers,
+.fw-tjenester .banner-bg,
+.fw-tjenester .fill,
+.fw-tjenester .banner {
+    border-radius: 15px !important;
+}
+
+/* Legge til border-radius på alle banner elementene i slideren i hero-seksjonen */
+.flickity-slider img,
+.flickity-slider .banner-link,
+.flickity-slider .banner-layers,
+.flickity-slider .banner-bg,
+.flickity-slider .fill,
+.flickity-slider .banner {
+    border-radius: 15px !important;
+}
