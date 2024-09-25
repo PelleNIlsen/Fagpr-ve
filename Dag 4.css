@@ -1,0 +1,68 @@
+/* Setter padding innad hele sidebaren */
+.nav-sidebar {
+    padding: 50px !important;
+}
+
+/* Gjør de 4 viktigste sidene større */
+.menu-item:not(.fw-meny-points .menu-item, .sub-menu .menu-item) {
+    font-size: 2rem !important;
+    border-top: none !important;
+    color: #2d2d2d !important;
+}
+
+/* Gir de andre sidene lik fet tekst */
+.menu-item:not(.fw-meny-points .menu-item) a {
+    font-weight: 600 !important;
+    color: #2d2d2d !important;
+}
+
+/* Passer på at den mindre teksten fortsatt har lik spacing */
+.fw-meny-points {
+    padding-left: 20px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    margin-top: 30px !important;
+    color: #2d2d2d !important;
+}
+
+/* Setter kontakt-informasjon til lik styling som resten av tekstene */
+.html_topbar_left a {
+    font-weight: 600 !important;
+    color: #2d2d2d !important;
+    font-size: 1rem !important; 
+}
+
+.html_topbar_left {
+    border-top: none !important;
+}
+
+.header-button-2 {
+    margin-bottom: 30px !important;
+    font-weight: 600 !important;
+    color: #2d2d2d !important;
+}
+
+.header-button-2,
+.html_topbar_left a {
+    padding-left: 0 !important;
+}
+
+.header-block {
+    border-top: none !important;
+}
+
+.header-contact-wrapper {
+    border-top: none !important;
+}
+
+.mfp-content {
+    background-color: white !important;
+}
+
+.sub-menu .menu-item {
+    font-size: 1rem !important;
+}
+
+.header-main {
+    height: initial !important;
+}
